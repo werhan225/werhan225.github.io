@@ -1,0 +1,153 @@
+body {
+font-family: 'Roboto', sans-serif;	
+background-color: #e8e9f3;
+}
+nav {
+  text-align: center;
+  background-color: black;
+  padding-bottom: .3em;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #fcbf49;
+  padding-top: .5em;
+}
+
+ul {
+	padding-top: 1%;
+}
+nav li a {
+	padding-top: .6em;
+	padding-left: 60em;
+}
+
+}
+header {
+	background-color: white;
+	padding-top: 4em;
+	padding-left: 8.5em;
+	padding-bottom: .01em;
+
+}
+
+.logo {
+	width: 135px;
+	height: 135px;
+	position: absolute;
+	left: 5%;
+	top: -1.5%;
+	bottom: 2%;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+}
+h2 {}
+h3 {}
+h4 {}
+
+.hero {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.hero img {
+	width: 100%;
+}
+
+blockquote {
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3em;
+	text-align: center;
+}
+.heading1 h2 {
+	text-align: center;
+}
+
+.heading1 p {
+	padding-left: 1.5em;
+	
+	font-size: .9em;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+.images {
+padding-left: .5em; 
+}
+.images img {
+	height: 225px;
+	width: 100%;
+	padding: .5em;
+	max-width: 400px;
+
+}
+.col1 {
+	padding-left: 3em;
+	
+}
+
+.col2 {
+	margin-top: -67em;
+	padding-left: 49em;
+
+}
+
+.step1 {
+	padding-left: .6em;
+	max-width: 397px;
+	padding-bottom: 10em;
+}
+.step2 {
+	padding-left: .6em;
+	max-width: 397px;
+	padding-bottom: 10em;
+}
+.step3 {
+	padding-left: .6em;
+	max-width: 397px;
+	padding-bottom: 10em;
+}
+.step4 {
+	padding-left: .6em;
+	max-width: 397px;
+	padding-bottom: 10em;
+	padding-top: 1.1em;
+}
+.step5 {
+	padding-left: .6em;
+	max-width: 397px;
+	padding-bottom: 10em;
+}
+.step6 {
+	padding-left: .6em;
+	max-width: 397px;
+	padding-bottom: 10em;
+	padding-top: 1.1em;
+}
+
+.steps {
+	
+	padding-bottom: 3em;
+}
+h4 {
+	color: white;
+	font-family: 'Crimson Text', serif;
+	padding-top: .8em;
+	padding-left: 9em;
+	padding-bottom: none;
+	font-size: .7em;
+}
+
+footer {
+width: 100%;
+background-color: black;
+height: 2em;
+padding-bottom: .3em;
+text-align: center;
+
+}
