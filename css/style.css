@@ -1,153 +1,200 @@
 body {
-font-family: 'Roboto', sans-serif;	
-background-color: #e8e9f3;
+
+	font-family: 'Lora', serif;
+	background-color: #525B76;
+
 }
+
+* {
+	
+	box-sizing: border-box;
+}
+
+.navButton {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1001;
+	padding: .5em;
+	background-color: #333;
+	border: solid #aaa;
+	border-width: 0 0 1px;
+}
+
+.navButton a {
+	color: #eee;
+	text-decoration: none;
+	padding: 0 0 0 .5em;
+}
+
+i {
+ 	font-size: 1em;
+ 	color: #eee;
+ 	padding: 0 1em 0 0;
+ 	transition: color .5s;
+ }
+
+i:hover {
+ 	color: #333;
+ }
+
+ #nav {
+ 	position: fixed;
+ 	top: 2em;
+ 	left: -72%;
+ 	width: 72%;
+ 	margin: 0;
+ 	height: 100%;
+ 	background-color: #333;
+ 	background-color: rgba(0,0,0,.84);
+ 	transition: left .5s;
+}
+
+#nav:target {
+	left: 0;
+}
+
 nav {
-  text-align: center;
-  background-color: black;
-  padding-bottom: .3em;
+	z-index: 1000;
 }
 
-nav a {
-  display: inline-block;
-  text-decoration: none;
-  text-align: center;
-  color: #fcbf49;
-  padding-top: .5em;
+nav ul {
+	margin: 0;
+	padding: 0;
+	margin-top: .5em;
+}
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;	
 }
 
-ul {
-	padding-top: 1%;
-}
 nav li a {
-	padding-top: .6em;
-	padding-left: 60em;
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	padding: .5em 1em;
+	transition: all .5s;
 }
 
-}
-header {
-	background-color: white;
-	padding-top: 4em;
-	padding-left: 8.5em;
-	padding-bottom: .01em;
-
+nav li a:hover {
+	color: #eee;
+	text-decoration: none;
+	background-color: #eee;
+	color: #333;
 }
 
-.logo {
-	width: 135px;
-	height: 135px;
-	position: absolute;
-	left: 5%;
-	top: -1.5%;
-	bottom: 2%;
+/* produces a blank line in mobile nav, but is
+hidden when on wider screens. */
+.hiddenLink {
+	display: block;
 }
 
-header h1 {
-	text-align: center;
-	font-family: 'Crimson Text', serif;
+@media only screen and (min-width: 30em) {
+	.navButton {
+		display: none;
+	}
+
+	#nav {
+	 	margin: 0;
+	 	width: 100%;
+	 	height: auto;
+	 	background-color: #333;
+	 	background-color: rgba(0,0,0,.84);
+	 	position: static;
+	}
+
+	nav {
+		margin: 0;
+	}
+
+	nav ul {
+		text-align: center;
+		margin: 0;
+	}
+
+	nav li {
+		display: inline;
+	}
+
+	nav li a {
+		display: inline-block;
+		padding: .5em 1em;
+	}
+
+	.hiddenLink {
+		display: none;
+	}
 }
-h2 {}
-h3 {}
-h4 {}
+
+
+@media screen and (min-width: 64em) {}
 
 .hero {
-	width: 400px;
-	margin: 0 auto;
-}
-
-.hero img {
-	width: 100%;
-}
-
-blockquote {
-	font-family: 'Crimson Text', serif;
-	font-size: 1.3em;
+	padding-top: 3em;
 	text-align: center;
+	background-color: #B0D0D3;
+	padding-bottom: 1em;
 }
-.heading1 h2 {
+.hero h1 {
+	font-weight: 400;
+	color: #F6F7EB;
+}
+mark.blue {
+color: #5BC0BE;
+background: none;
+}
+.nowshowing {
 	text-align: center;
+
 }
 
-.heading1 p {
-	padding-left: 1.5em;
-	
-	font-size: .9em;
+.nowshowing h2 {
+
 	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 14pt;
+	font-style: italic;	
+	color: #F6F7EB;
+}
+.nowshowing h3 {
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	color: #F6F7EB;
+
+
+}
+p {
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-family: 'Lato', sans-serif;
+	color: #F6F7EB;
+}
+h2 {
+	text-align: center;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	color: #F6F7EB;
+}
+.trailer {
+	text-align: center;
+}
+.googlemap {
 	text-align: center;
 }
 
-.images {
-padding-left: .5em; 
-}
-.images img {
-	height: 225px;
-	width: 100%;
-	padding: .5em;
-	max-width: 400px;
-
-}
-.col1 {
-	padding-left: 3em;
-	
-}
-
-.col2 {
-	margin-top: -67em;
-	padding-left: 49em;
-
-}
-
-.step1 {
-	padding-left: .6em;
-	max-width: 397px;
-	padding-bottom: 10em;
-}
-.step2 {
-	padding-left: .6em;
-	max-width: 397px;
-	padding-bottom: 10em;
-}
-.step3 {
-	padding-left: .6em;
-	max-width: 397px;
-	padding-bottom: 10em;
-}
-.step4 {
-	padding-left: .6em;
-	max-width: 397px;
-	padding-bottom: 10em;
-	padding-top: 1.1em;
-}
-.step5 {
-	padding-left: .6em;
-	max-width: 397px;
-	padding-bottom: 10em;
-}
-.step6 {
-	padding-left: .6em;
-	max-width: 397px;
-	padding-bottom: 10em;
-	padding-top: 1.1em;
-}
-
-.steps {
-	
-	padding-bottom: 3em;
-}
-h4 {
+footer p {
 	color: white;
-	font-family: 'Crimson Text', serif;
-	padding-top: .8em;
-	padding-left: 9em;
-	padding-bottom: none;
-	font-size: .7em;
 }
 
 footer {
-width: 100%;
-background-color: black;
-height: 2em;
-padding-bottom: .3em;
-text-align: center;
-
+	background-color: black;
+	margin-bottom: -3em;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
+
