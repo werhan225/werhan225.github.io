@@ -126,6 +126,7 @@ hidden when on wider screens. */
 	.hiddenLink {
 		display: none;
 	}
+
 }
 
 
@@ -176,15 +177,18 @@ p {
 }
 h2 {
 	text-align: center;
-	padding-bottom: 1em;
+
 	padding-top: 1em;
 	color: #F6F7EB;
 }
 .trailer {
-	text-align: center;
+	margin: .8em;
+	margin-bottom: 3em;
+
 }
 .googlemap {
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 footer p {
