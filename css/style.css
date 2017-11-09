@@ -135,7 +135,7 @@ hidden when on wider screens. */
 .hero {
 	padding-top: 3em;
 	text-align: center;
-	background-color: #B0D0D3;
+	background-color: #22223B;
 	padding-bottom: 1em;
 }
 .hero h1 {
@@ -143,7 +143,7 @@ hidden when on wider screens. */
 	color: #F6F7EB;
 }
 mark.blue {
-color: #5BC0BE;
+color: #B0D0D3;
 background: none;
 }
 .nowshowing {
@@ -164,7 +164,7 @@ background: none;
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 10pt;
-	color: #F6F7EB;
+	color: #B0D0D3;
 
 
 }
@@ -190,15 +190,42 @@ h2 {
 	text-align: center;
 	margin-bottom: 2em;
 }
+/*/ HOME PAGE /*/
+/*/ COMING ATTRACTIONS /*/
+.comingattractions img {
+	max-width: 90%;
+	max-height: 90%;
+	margin: .1em;
+	
 
+
+}
+.comingattractions {
+	text-align: center;
+
+}
+.caheader h2{
+	font-family: "Lato", sans-serif;
+	font-style: italic;
+	margin-top: -.3em;
+	color: #F6F7EB;
+
+}
+.comingattractions h3 {
+	color: #F6F7EB;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	padding-bottom: 2em;
+}
 footer p {
-	color: white;
+	color: #F6F7EB;
 }
 
 footer {
-	background-color: black;
+	background-color: #22223B;
 	margin-bottom: -3em;
-	padding-bottom: 1em;
+	padding-bottom: .7em;
 	padding-top: 1em;
+
 }
 
