@@ -130,8 +130,6 @@ hidden when on wider screens. */
 }
 
 
-@media screen and (min-width: 64em) {}
-
 .hero {
 	padding-top: 3em;
 	text-align: center;
@@ -150,7 +148,9 @@ background: none;
 	text-align: center;
 
 }
-
+.nowshowing img {
+	border: 2px solid #F6F7EB;
+}
 .nowshowing h2 {
 
 	font-family: 'Lato', sans-serif;
@@ -181,28 +181,46 @@ h2 {
 	padding-top: 1em;
 	color: #F6F7EB;
 }
+
 .trailer {
 	margin: .8em;
 	margin-bottom: 3em;
-
+	overflow: hidden;
 }
 .googlemap {
 	text-align: center;
-	margin-bottom: 2em;
+	margin-bottom: 0em;
+	overflow: hidden;
 }
 /*/ HOME PAGE /*/
+
+.trailer2 {
+	margin: .8em;
+	margin-bottom: 1em;
+}
+.hheader h2 {
+	font-family: 'Lato' sans-serif;
+
+}
+
+.homeheader h2 {
+	font-family: "Lato" sans-serif;
+	text-align: center;
+}
+
+
 /*/ COMING ATTRACTIONS /*/
 .comingattractions img {
 	max-width: 90%;
 	max-height: 90%;
 	margin: .1em;
-	
-
+	overflow: hidden;
+	border: 2px solid #F6F7EB;
 
 }
 .comingattractions {
 	text-align: center;
-
+	overflow: hidden;
 }
 .caheader h2{
 	font-family: "Lato", sans-serif;
@@ -212,6 +230,30 @@ h2 {
 
 }
 .comingattractions h3 {
+	color: #F6F7EB;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	padding-bottom: 2em;
+}
+/*/ FEATURED FILMS /*/
+.featuredfilms img {
+	max-width: 90%;
+	max-height: 90%;
+	margin: .1em;
+	overflow: hidden;
+	border: 2px solid #F6F7EB;
+}
+.featuredfilms {
+	text-align: center;
+	overflow: hidden;
+}
+.ffheader h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	margin-top: -.3em;
+	color: #F6F7EB;
+}
+.featuredfilms h3 {
 	color: #F6F7EB;
 	font-family: 'Lato', sans-serif;
 	font-style: italic;
@@ -227,5 +269,65 @@ footer {
 	padding-bottom: .7em;
 	padding-top: 1em;
 
+}
+@media screen and (min-width: 64em) {
+	.words {
+		padding-top: 2em;
+	}
+	.lleft {
+		float: left;
+		width: 45%;
+		
+	}
+	.rright {
+		float: right;
+		width: 45%;
+		padding-top: 2.5em;
+		
+	}
+	.trailer {
+		padding-left: 6em;
+	}
+	.comingattractions img {
+		width: 450px;
+		height: 600px;
+	}
+	.featuredfilms img {
+		width: 450px;
+		height: 600px;
+	}
+	.one-half {
+		float: left;
+		width: 45%; 
+	}
+	.one-half2 {
+		float: right;
+		width: 45%;
+	}
+	.hero h1{
+		margin-top: -.3em;
+	}
+	.caheader h2 {
+		padding-bottom: 1.5em;
+		padding-top: 1.5em;
+	}
+	.ffheader h2 {
+		padding-bottom: 1.5em;
+		padding-top: 1.5em;
+	}
+	.home {
+		text-align: center;
+		padding-top: 1em;
+	}
+	.home img {
+		border: 1.5px solid #F6F7EB;
+	}
+	.trailer2 {
+		text-align: center;
+
+	}
+	.footerr {
+		padding-top: 25em;
+	}
 }
 
